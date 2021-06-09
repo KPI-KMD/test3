@@ -9,6 +9,8 @@ import (
 	gocheck "gopkg.in/check.v1"
 )
 
+//
+
 const baseAddress = "http://balancer:8090"
 
 var client = http.Client{
